@@ -18,15 +18,12 @@ public class Missing268 {
                 i++;
             }
         }
-        //  if (nums[i] != i) {
-        //               System.out.println(nums[i]);
-        //  }
       System.out.println(Arrays.toString(nums));
       for(int j =0; j<nums.length; j++){
 
         if (nums[j] != j) {
             System.out.println(j);
-            break;
+         
         }
       }
     
