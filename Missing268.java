@@ -18,6 +18,9 @@ public class Missing268 {
             }
         }
       System.out.println(Arrays.toString(nums));
+      for(int i =0; i<nums.length; i++){
+        
+      }
 
     }
 }
