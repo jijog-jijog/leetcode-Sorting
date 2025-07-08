@@ -1,5 +1,4 @@
 
-import java.util.Arrays;
 
 public class Missing268 {
     public static void main(String[] args) {
@@ -8,7 +7,7 @@ public class Missing268 {
         int i = 0;
         while(i < nums.length){
             int correct = nums[i] - 1;
-            if (nums[i] != nums[correct]) {
+            if (nums[i] != nums[correct]) { 
                 int temp = nums[i];
                 nums[i] = nums[correct];
                 nums[correct] = temp;
@@ -17,6 +16,9 @@ public class Missing268 {
                 i++;
             }
         }
-    System.out.println(Arrays.toString(nums));
+    for(int a : nums){
+            System.out.println(a);
+    }
+
     }
 }
