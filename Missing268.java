@@ -2,11 +2,11 @@ import java.util.Arrays;
 
 public class Missing268 {
     public static void main(String[] args) {
-        int[] nums = {1,5,4,2,7,6,3,8};
+        int[] nums = {1,5,4,0,7,6,3,8};
 
         int i = 0;
         while(i < nums.length){
-            int correct = nums[i] - 1; 
+            int correct = nums[i]; 
             
             if (nums[i] != nums[correct]) { 
                 int temp = nums[i];
