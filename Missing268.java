@@ -5,7 +5,7 @@ import java.util.Arrays;
 
 public class Missing268 {
     public static void main(String[] args) {
-        int[] nums = {9,6};
+        int[] nums = {9,3,5,7,6};
 
         int i = 0;
         while(i < nums.length){
