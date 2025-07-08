@@ -4,7 +4,7 @@ public class Missing268 {
         int[] nums = {1,5,4,0,7,6,3,8};
 
         for(int i=0; i<nums.length; i++){
-            if (nums[i] !=  i) {
+            if (nums[i] ==  i) {
                 System.out.println(i);
             }
         }
