@@ -1,4 +1,3 @@
-import java.util.Arrays;
 
 public class Missing268 {
     public static void main(String[] args) {
@@ -17,13 +16,14 @@ public class Missing268 {
                 i++;
             }
         }
-      System.out.println(Arrays.toString(nums));
-      for(int j =0; j<nums.length; j++){
+    //   System.out.println(Arrays.toString(nums));
+    //   for(int j =0; j<nums.length; j++){
 
-        if (nums[i] != i) {
-            System.out.println(nums[i]);
-        }
+    //     if (nums[i] != i) {
+    //         System.out.println(nums[i]);
+    //     }
       }
-
-    }
+    
 }
+    
+
