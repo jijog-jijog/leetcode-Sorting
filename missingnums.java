@@ -7,7 +7,11 @@ public class missingnums {
             int correct = nums[i];
 
             if (nums[i] < nums.length && nums[i] != nums[correct]) {
-                
+                int temp = nums[i];
+                nums[i] = nums[correct];
+                nums[correct] = temp;
+            }else{
+                i++;
             }
         }
     }
