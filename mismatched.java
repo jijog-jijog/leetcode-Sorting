@@ -1,3 +1,6 @@
+
+import java.util.Arrays;
+
 public class mismatched {
     public static void main(String[] args) {
         int[] nums = {1,2,2,4};
@@ -11,5 +14,6 @@ public class mismatched {
                 nums[correct] = temp;
             }
         }
+        System.out.println(Arrays.toString(nums));
     }
 }
