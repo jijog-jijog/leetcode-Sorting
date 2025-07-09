@@ -1,9 +1,12 @@
 
+import java.util.ArrayList;
 import java.util.Arrays;
+import java.util.List;
 
 public class mismatched {
     public static void main(String[] args) {
-        int[] nums = {1,2,2,4};
+        int[] nums = {1,1};
+        List<Integer> arr = new  ArrayList<>();
 
         int i = 0;
         while (i < nums.length) {
@@ -12,8 +15,20 @@ public class mismatched {
                 int temp = nums[i];
                 nums[i] = nums[correct];
                 nums[correct] = temp;
+            }else{
+                i++;
             }
         }
         System.out.println(Arrays.toString(nums));
+
+        for (int j = 0; j < nums.length; j++) {
+            if (nums[j] != j+1) {
+                arr.add(nums[j]);
+                arr.add(j+1);
+                
+            }
+            
+        }
+        System.out.println(arr.toString());
     }
 }
